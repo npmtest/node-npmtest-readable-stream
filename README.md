@@ -1,4 +1,7 @@
-# test coverage for  [readable-stream (v2.2.9)](https://github.com/nodejs/readable-stream#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-readable-stream.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-readable-stream) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-readable-stream.svg)](https://travis-ci.org/npmtest/node-npmtest-readable-stream)
+# npmtest-readable-stream
+
+#### basic test-coverage for  [readable-stream (v2.2.9)](https://github.com/nodejs/readable-stream#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-readable-stream.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-readable-stream) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-readable-stream.svg)](https://travis-ci.org/npmtest/node-npmtest-readable-stream)
+
 #### Streams3, a user-land copy of the stream library from Node.js
 
 [![NPM](https://nodei.co/npm/readable-stream.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/readable-stream)
@@ -111,7 +114,8 @@
         "test": "tap test/parallel/*.js test/ours/*.js",
         "write-zuul": "printf \"ui: tape\nbrowsers:\n  - name: $BROWSER_NAME\n    version: $BROWSER_VERSION\n\">.zuul.yml"
     },
-    "version": "2.2.9"
+    "version": "2.2.9",
+    "bin": {}
 }
 ```
 
